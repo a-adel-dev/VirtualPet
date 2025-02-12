@@ -26,7 +26,7 @@ public class GloveController : MonoBehaviour
         if (sequenceHandler.GetIsWaitingForPetting()){
             // Right hand dominance
             if(rightHand){
-                BhapticsLibrary.Play("touch_right");
+                BhapticsLibrary.Play("pet");
                 Debug.Log("touch_right");
             }
             // Left hand dominance
